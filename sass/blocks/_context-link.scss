@@ -1,0 +1,33 @@
+.wrapper-context-link {
+    text-align: center;
+}
+.context-link {
+    padding: 12px 20px;
+    border-radius: 4px;
+    min-width: 110px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 15px;
+    background-color: $backgroundColorContextLink;
+
+
+}
+.contact-link{
+font-weight: 400;
+font-size: 24px;
+line-height: 1.05;
+color: $colorNameTitle !important;
+display: inline-block;
+min-width: 132px;
+
+span{
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+svg{
+width: 32px;
+height: 32px;
+
+}
+}

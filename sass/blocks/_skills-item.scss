@@ -1,0 +1,71 @@
+
+.card-skill {
+width: 200px;
+padding-top: 61px;
+padding-bottom: 48px;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+background-color: $backgroundColorCard;
+
+&__icon {
+    margin-bottom: 16px;
+}
+
+&:hover{
+    .context-btn{
+        transition: box-shadow 0.5s;
+    }
+    .context-btn--html{
+        box-shadow: 0px 0px 3px 3px 
+        #FC490B, inset 0px 0px 3px 3px 
+        #FC490B;
+    }
+    .context-btn--css3{
+        box-shadow: 0px 0px 3px 3px #2196F4, 
+        inset 0px 0px 3px 3px
+        #2196F4;
+    }
+    .context-btn--js{
+        box-shadow: 0px 0px 3px 3px 
+        #FFDF00, inset 0px 0px 3px 3px 
+        #FFDF00;
+    }
+    .context-btn--scss{
+        box-shadow: 0px 0px 3px 3px 
+        #CA669B, inset 0px 0px 3px 3px 
+        #CA669B;
+    }
+    .context-btn--git{
+        box-shadow: 0px 0px 3px 3px 
+        #F25234, inset 0px 0px 3px 3px 
+        #F25234;
+    }
+    
+    // change color svg
+    
+    
+    .backgroung-color-icon--html {
+        fill: #FC490B;
+    }
+    .backgroung-color-icon--css3{
+        fill: #2196F4;
+    }
+    .backgroung-color-icon--js{
+        fill: #FFDF00;
+    }
+    .backgroung-color-icon--scss{
+        fill: #CA669B;
+    }
+    .backgroung-color-icon--git{
+        fill: #F25234;
+    }
+    .backgroung-color-icon{
+        transition: fill 0.5s;
+    }
+}
+}
+.backgroung-color-icon{
+    transition: fill 0.5s;
+}

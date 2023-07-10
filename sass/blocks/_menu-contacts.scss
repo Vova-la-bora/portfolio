@@ -1,0 +1,12 @@
+
+.menu-contacts {
+    display: flex;
+    width: 390px;
+    flex-wrap: wrap;
+    column-gap: 48px;
+    row-gap: 32px;
+
+    li:nth-child(3){
+        margin-right: 60px;
+    }
+}

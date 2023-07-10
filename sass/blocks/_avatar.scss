@@ -1,0 +1,37 @@
+.avatar {
+width: 629px;
+height: 575px;
+position: relative;
+}
+
+.avatar__photo {
+width: 374px;
+height: 371px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+.avatar__shadow {
+width: 374px;
+height: 371px;
+position: absolute;
+top: 0;
+left: 0;
+}
+.avatar__shadow--img {
+    overflow: hidden;
+    z-index: 3;
+    border-radius: 22% 78% 26% 74% / 57% 73% 27% 43%;
+}
+.avatar__shadow--color {
+    background-color: rgba(235, 37, 37, 0.72);
+    transform: rotate(-30deg);
+    z-index: 2;
+    border-radius: 22% 78% 26% 74% / 57% 73% 27% 43%;
+}
+.avatar__shadow--color-two {
+    background-color: rgba(240, 227, 202, 0.72);
+    transform: rotate(24deg);
+    border-radius: 22% 78% 26% 74% / 57% 73% 27% 43%;
+}

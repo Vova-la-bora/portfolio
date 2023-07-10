@@ -1,0 +1,30 @@
+.footer {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: center;
+    column-gap: 64px;
+}
+
+.footer__contacts {
+    width: 384px;
+    
+}
+.footer__copyright{
+width: 213px;
+font-weight: 400;
+font-size: 20px;
+line-height: 1.05;
+
+.logo--footer{
+    svg{
+    width: 160px;
+}
+}
+}
+.footer .wrapper-logo{
+    margin-bottom: 16px;
+}
