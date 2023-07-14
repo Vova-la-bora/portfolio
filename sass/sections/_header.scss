@@ -1,6 +1,11 @@
 .header {
     padding-top: 20.5px;
     padding-bottom: 20.5px;
+
+    @media (max-width: 1243px ) {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
 }
 
 .header__content {
@@ -10,6 +15,11 @@
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
+
+    @media (max-width: 1243px ) {
+        flex-direction: column;
+        row-gap: 25px;
+    }
 }
 
 .menu__list {
